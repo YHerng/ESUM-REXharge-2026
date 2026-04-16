@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bento-bg: #0A0B10;
+  --color-bento-card: #161821;
+  --color-bento-border: #2D303E;
+  --color-bento-text: #E0E0E6;
+  --color-bento-text-dim: #9499B0;
+  --color-bento-accent: #7C5DFF;
+  --color-bento-success: #10B981;
+  --color-bento-warning: #F59E0B;
+  --color-bento-danger: #EF4444;
+}
+
+@layer base {
+  body {
+    @apply bg-bento-bg text-bento-text font-sans antialiased;
+  }
+}
+
+/* Custom scrollbar for bento theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-bento-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-bento-border rounded-full hover:bg-bento-text-dim/30;
+}
