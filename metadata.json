@@ -1,0 +1,6 @@
+{
+  "name": "REXharge - Virtual Battery & Peak Shaving Dashboard",
+  "description": "A professional energy management dashboard for forecasting load demand, identifying peak periods, and simulating virtual battery (TES) strategies for cost savings in Malaysia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
